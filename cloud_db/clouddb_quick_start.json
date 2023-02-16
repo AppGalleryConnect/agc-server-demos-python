@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "permissions": [
+    {
+      "permissions": [
+        {
+          "role": "World",
+          "rights": [
+            "Read"
+          ]
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ],
+      "objectTypeName": "EntityTwo"
+    },
+    {
+      "permissions": [
+        {
+          "role": "World",
+          "rights": [
+            "Read"
+          ]
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ],
+      "objectTypeName": "BookInfo"
+    },
+    {
+      "permissions": [
+        {
+          "role": "World",
+          "rights": []
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ],
+      "objectTypeName": "AllTypeTable"
+    },
+    {
+      "permissions": [
+        {
+          "role": "World",
+          "rights": [
+            "Read"
+          ]
+        },
+        {
+          "role": "Authenticated",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Creator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        },
+        {
+          "role": "Administrator",
+          "rights": [
+            "Read",
+            "Upsert",
+            "Delete"
+          ]
+        }
+      ],
+      "objectTypeName": "EntityOne"
+    }
+  ],
+  "objectTypes": [
+    {
+      "indexes": [],
+      "objectTypeName": "EntityTwo",
+      "fields": [
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "id",
+          "notNull": true,
+          "belongPrimaryKey": true,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "name",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "gender",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "stringType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "integerType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "shortType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Short"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "longType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Long"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "floatType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Float"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "doubleType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Double"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "booleanType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Boolean"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "byteType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Byte"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "dateType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Date"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "byteArray",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "ByteArray"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "question",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Text"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "name1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "gender1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "stringType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "integerType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "shortType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Short"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "longType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Long"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "floatType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Float"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "doubleType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Double"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "booleanType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Boolean"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "byteType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Byte"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "dateType1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Date"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "byteArray1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "ByteArray"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "question1",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Text"
+        }
+      ]
+    },
+    {
+      "indexes": [
+        {
+          "indexName": "q_index",
+          "indexList": [
+            {
+              "fieldName": "BooleanT",
+              "sortType": "ASC"
+            },
+            {
+              "fieldName": "DateT",
+              "sortType": "ASC"
+            },
+            {
+              "fieldName": "ID",
+              "sortType": "ASC"
+            }
+          ]
+        },
+        {
+          "indexName": "q2_index",
+          "indexList": [
+            {
+              "fieldName": "BooleanT",
+              "sortType": "DESC"
+            },
+            {
+              "fieldName": "ShortT",
+              "sortType": "DESC"
+            },
+            {
+              "fieldName": "ID",
+              "sortType": "DESC"
+            }
+          ]
+        },
+        {
+          "indexName": "q1_index",
+          "indexList": [
+            {
+              "fieldName": "BooleanT",
+              "sortType": "ASC"
+            },
+            {
+              "fieldName": "ShortT",
+              "sortType": "ASC"
+            },
+            {
+              "fieldName": "ID",
+              "sortType": "ASC"
+            }
+          ]
+        }
+      ],
+      "objectTypeName": "AllTypeTable",
+      "fields": [
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "ID",
+          "notNull": true,
+          "belongPrimaryKey": true,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "IntegerT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "DoubleT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Double"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "FloatT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Float"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "ShortT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Short"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "LongT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Long"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "StringT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "BooleanT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Boolean"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "ByteT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Byte"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "ByteArrayT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "ByteArray"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "DateT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Date"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "TextT",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Text"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "EncryptDate",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Date"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "EncryptString",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "EncryptInteger",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Integer"
+        }
+      ]
+    },
+    {
+      "indexes": [
+        {
+          "indexName": "queryIndex",
+          "indexList": [
+            {
+              "fieldName": "bookName",
+              "sortType": "ASC"
+            },
+            {
+              "fieldName": "price",
+              "sortType": "ASC"
+            },
+            {
+              "fieldName": "id",
+              "sortType": "ASC"
+            }
+          ]
+        },
+        {
+          "indexName": "bookName",
+          "indexList": [
+            {
+              "fieldName": "bookName",
+              "sortType": "ASC"
+            }
+          ]
+        }
+      ],
+      "objectTypeName": "BookInfo",
+      "fields": [
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "id",
+          "notNull": true,
+          "belongPrimaryKey": true,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "bookName",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "author",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "price",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Double"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "publisher",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "publishTime",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Date"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "shadowFlag",
+          "notNull": false,
+          "defaultValue": "true",
+          "belongPrimaryKey": false,
+          "fieldType": "Boolean"
+        }
+      ]
+    },
+    {
+      "indexes": [
+        {
+          "indexName": "integerType",
+          "indexList": [
+            {
+              "fieldName": "id",
+              "sortType": "ASC"
+            }
+          ]
+        }
+      ],
+      "objectTypeName": "EntityOne",
+      "fields": [
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "id",
+          "notNull": true,
+          "belongPrimaryKey": true,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "name",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "gender",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "stringType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "String"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "integerType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Integer"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "shortType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Short"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "longType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Long"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "floatType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Float"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "doubleType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Double"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "booleanType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Boolean"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "byteType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Byte"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "dateType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Date"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "byteArrayType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "ByteArray"
+        },
+        {
+          "isNeedEncrypt": false,
+          "fieldName": "textType",
+          "notNull": false,
+          "belongPrimaryKey": false,
+          "fieldType": "Text"
+        }
+      ]
+    }
+  ]
+}
